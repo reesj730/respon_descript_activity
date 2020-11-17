@@ -1,0 +1,42 @@
+
+body {
+  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+
+body {
+  background-color: white;
+  color: black;
+}
+
+/* On screens that are 992px wide or less, the background color is blue */
+@media screen and (max-width: 992px) {
+  body {
+    background-color: white;
+    color: lightblue;
+  }
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+    color: white;
+  }
+}
+
+
+/* Demo Specific Styles */
+body {
+  line-height: 1.2;
+  padding: 0 2em;
+  text-align: center;
+}
+
+h1{
+  font-family: 'Rubik', sans-serif;
+}
+
+p{
+  font-family: 'Caveat', cursive;
+}
